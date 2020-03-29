@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Maranata</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/facebook-plugin/style.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/recaptcha.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  <script type"text/javascript">
+function trouverMots(chaine)
+{
+document.getElementById('rechDsPg').value = '';
+var ouvrirBalise = '<span style="background-color: ';
+var frmOvrBalise = ';">';
+var fermerBalise = '</span>';
+var doc = document.body.innerHTML;
+var j = 0;
+var arrayClrs = new Array("#FFFF00", "#66FFFF", "#33FF33", "#3333FF", "#FF9900", "#FF33FF", "#CCFF00", "#FF0000");
+tablMots = chaine.split(' ');
+rchSupp = new RegExp( '(' + ouvrirBalise + '[^><]*>)' , 'gi');
+doc = doc.replace(rchSupp, '');
+rchSupp = new RegExp( '(' + fermerBalise + ')' , 'gi');
+doc = doc.replace(rchSupp, '');
+for (i = 0; i < tablMots.length; i++)
+{
+if (j >= arrayClrs.length) {j = 0;}
+if (tablMots[i] != '' && tablMots[i].length > 2)
+{
+rch = new RegExp( '(' + tablMots[i] + ')' , 'gi');
+ouvrBalise = ouvrirBalise + arrayClrs[j] + frmOvrBalise;
+doc = doc.replace(rch, ouvrBalise + '$1' + fermerBalise);
+j += 1;
+}
+}
+document.body.innerHTML = doc;
+}
+</script> 
+
+</head>
+<body>
+  <div id="custom-html-z"><!-- Type valid HTML here -->
+
+<div>
+<p><span id="datetime"></span></p>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
+</div>
+</div>
+
+<section class="header1 cid-rU9rs0QII5" id="header16-10">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10 align-center">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">MARANATA</h1>
+                
+                <p class="mbr-text pb-3 mbr-fonts-style display-4">Blago onima koji Čitaju</p>
+                        <input id="rechDsPg" type="text" value="" name="rechDsPg">
+<input type="button" class="btn btn-sm btn-primary" onclick="trouverMots(document.getElementById('rechDsPg').value);" value="Pretraži"> 
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="extFeatures cid-rSEhed4E9O" id="extFeatures53-o">
+
+    
+
+    
+     <div class="container">
+        
+
+        
+    <div class="container">
+        
+
+        
+
+        <div class="row row-content justify-content-center">
+
+
+            <div class="card col-12 col-lg-4 col-md-12">
+                <div class="card-wrapper">
+                    <div class="card-img small">
+                        <a href="http://www.fulcrum7.com"><img src="assets/images/05.jpg" title="" alt=""></a>
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-2">Finansije</h4>
+                        <h5 class="card-sub-title mbr-fonts-style mbr-white mbr-bold display-7"><span style="font-weight: normal;">Bezvremenski principi za uspeh.</span></h5>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-12 col-lg-8 col-md-12">
+                <div class="card-wrapper">
+                    <div class="card-img big">
+                        <a href="http://www.fulcrum7.com"><img src="assets/images/mbr-1420x947.jpg" title="" alt=""></a>
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-2">Znaci Vremena</h4>
+                        <h5 class="card-sub-title mbr-fonts-style mbr-white mbr-bold display-7"><span style="font-weight: normal;">Dreveni spisi su predskazuju vreme u kome živimo.</span></h5>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="card col-12 col-lg-8 col-md-12">
+                <div class="card-wrapper">
+                    <div class="card-img big">
+                        <a href="http://www.fulcrum7.com"><img src="assets/images/mbr-1420x945.jpg" title="" alt=""></a>
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-2">Zdravlje</h4>
+                        <h5 class="card-sub-title mbr-fonts-style mbr-white mbr-bold display-7"><span style="font-weight: normal;">Vaše zdravlje je u vašim rukama.</span></h5>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-4 col-md-12">
+                <div class="card-wrapper">
+                    <div class="card-img small">
+                        <a href="https://www.youtube.com/watch?v=bsFaDRRtrYE"><img src="assets/images/mbr-680x398.jpg" title="" alt=""></a>
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-2">Duhovnost</h4>
+                        <h5 class="card-sub-title mbr-fonts-style mbr-white mbr-bold display-7"><span style="font-weight: normal;">Koko naći nadu u današnjnem svetu.</span></h5>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div></section>
+
+<section class="mbr-section extFeatures cid-rSEh16OjNe" id="extFeatures24-c">
+
+    
+
+    
+
+    <div class="container">
+        
+
+        
+    
+        <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-1">
+            Najnovije</h2>
+        <div class="row justify-content-center">
+            <div class="card col-md-8 first-card col-lg-4">
+                <div class="card-img">
+                    <img src="assets/images/01.jpg" alt="">
+                </div>
+                <div class="card-box">
+                    <h2 class="card-title mbr-section-title mbr-fonts-style pb-2 display-2">
+                        Kako se zaštiti od virusa</h2>
+                    
+                    <p class="mbr-text card-text mbr-fonts-style mbr-lighter display-7">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto optio modi ullam officia.
+                    </p>
+                    <div class="link mbr-fonts-style display-4"><strong>SAZNAJTE VIŠE</strong></div>
+                </div>
+            </div>
+            
+            <div class="card col-md-8 second-card col-lg-4">
+                <div class="card-img">
+                    <img src="assets/images/mbr-1-700x467.jpg" alt="" title="">
+                </div>
+                <div class="card-box">
+                    <h2 class="card-title mbr-section-title mbr-fonts-style pb-2 display-2">
+                        Thematic Seminars
+                    </h2>
+                    
+                    <p class="mbr-text card-text mbr-fonts-style mbr-lighter display-7">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto optio modi ullam officia.
+                    </p>
+                    <div class="link mbr-fonts-style display-4">
+                        <strong>SAZNAJTE VIŠE</strong></div>
+                </div>
+            </div>
+            
+            <div class="card col-md-8 third-card col-lg-4">
+                <div class="card-img">
+                    <img src="assets/images/03.jpg" alt="">
+                </div>
+                <div class="card-box">
+                    <h2 class="card-title mbr-section-title mbr-fonts-style pb-2 display-2">
+                        Practical Lesson
+                    </h2>
+                    
+                    <p class="mbr-text card-text mbr-fonts-style mbr-lighter display-7">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto optio modi ullam officia.
+                    </p>
+                    <div class="link mbr-fonts-style display-4"><strong>SAZNAJTE VIŠE</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="extFeatures cid-rSEhggN2c9" id="extFeatures56-p">
+
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+
+                
+                
+                
+
+            </div>
+        </div>
+
+        <div class="row pt-5 row-content justify-content-center align-items-stretch">
+
+
+            <div class="card card-big col-12 col-lg-6 col-md-12">
+                <div class="card-wrapper">
+                    <div class="card-img small">
+                        <img src="assets/images/20.jpg" title="" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-5">Software</h4>
+                        <h5 class="card-sub-title mbr-fonts-style mbr-white  display-4">4
+                            Courses
+                        </h5>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-lg-6 col-md-12">
+                <div class="row row-content justify-content-center">
+                    <div class="card col-12 col-lg-6 col-md-12">
+                        <div class="card-wrapper">
+                            <div class="card-img big">
+                                <img src="assets/images/34.jpg" title="" alt="">
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-5">Сopywriting</h4>
+                                <h5 class="card-sub-title mbr-fonts-style mbr-white display-4">3
+                                    Couqrses
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="card col-12 col-lg-6 col-md-12">
+                        <div class="card-wrapper">
+                            <div class="card-img big">
+                                <img src="assets/images/35.jpg" title="" alt="">
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-5">Economics</h4>
+                                <h5 class="card-sub-title mbr-fonts-style mbr-white display-4">4
+                                    Courses
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-12 col-lg-6 col-md-12">
+                        <div class="card-wrapper">
+                            <div class="card-img small">
+                                <img src="assets/images/24.jpg" title="" alt="">
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-5">Politics</h4>
+                                <h5 class="card-sub-title mbr-fonts-style mbr-white display-4">4
+                                    Courses
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card col-12 col-lg-6 col-md-12">
+                        <div class="card-wrapper">
+                            <div class="card-img small">
+                                <img src="assets/images/17.jpg" title="" alt="">
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style mbr-white mbr-bold display-5">Design</h4>
+                                <h5 class="card-sub-title mbr-fonts-style mbr-white  display-4">3
+                                    Courses
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="features10 cid-rSEhkdUQCu mbr-parallax-background" id="extFeatures64-t">
+
+    
+
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card col-12 m-auto col-md-12 col-lg-6">
+                <div class="card-wrapper big">
+                    <h4 class="main-title align-center mbr-fonts-style display-1">Best Solutions 
+<div>For Your Business</div></h4>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="row">
+                    <div class="card col-12 col-md-12 col-lg-6">
+
+                        <div class="card-img">
+                            <img src="assets/images/1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6 col-lg-6">
+                        <div class="card-wrapper cardbg1">
+                            <h4 class="card-title align-left mbr-fonts-style display-2">Industry Efficiency
+                            </h4>
+                            <div class="mbr-section-btn"><a href="#" class="btn btn-black-outline display-4">
+                                    VIEW CASE</a></div>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6 col-lg-6">
+                        <div class="card-wrapper cardbg2">
+                            <p class="card-text align-left mbr-semibold mbr-fonts-style display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elitdo
+                                eiusmod
+                                temporeum dicant partem scripserit.</p>
+                        </div>
+                    </div>
+
+                    <div class="card col-12 col-md-12 col-lg-6">
+
+                        <div class="card-img">
+                            <img src="assets/images/27.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section extForm cid-rSEibw7tLc" id="extForm2-x">
+
+    
+
+    
+   <div class="container">
+        <div class="media-container-row">
+            <div class="col-md-6 col-lg-6 block-content">
+                <div class="form-block">
+                    <div class="bg"></div>
+                    <div class="form-wrap" data-form-type="formoid">
+                    <!---Formbuilder Form--->
+                        <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="rSUT076EDI7yCpn1iHS1O5eVsdjCe7JbMfaI2PYLehUe6jzp0mfLeNXv2TOobFP/x7qXhrgdm39iswtAiAuyLqPGa4YCpzlpI67RjMBviHbL2rYLHHInTR4BLRdHaopA.5toTs3hv9CJvHay/LTXb1RMCP9Bg961rDrffBHTiNhW1L2nBcYbY1pFxyRNEGIsRDhHcSfQDYgHAqgK9qNCADA5PcW7bMGv3lhSYO1RnnbGxX9A0srAcWBZdFT7sWV+h">
+                            <div class="form-row">
+                                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                                <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
+                            </div>
+                            <div class="dragArea form-row">
+                                <div class="col-md-12">
+                                    <h4 class="mbr-fonts-style mb-4 mbr-fonts-style display-5">Ready to get started?</h4>
+                                </div>
+                                <div class="col-md-12 form-group " data-for="name">
+                                    <input type="text" name="name" placeholder="Your Name" data-form-field="Name" required="required" class="form-control input display-7" id="name-extForm2-x">
+                                </div>
+                                <div data-for="email" class="col-md-12 form-group ">
+                                    <input type="text" name="email" placeholder="Email" data-form-field="Email" class="form-control input display-7" required="required" id="email-extForm2-x">
+                                </div>
+                                <div class="col-md-12 form-group " data-for="message">
+                                    <textarea type="textarea" name="message" placeholder="Message" data-form-field="Message" class="form-control input display-7" id="message-extForm2-x"></textarea>
+                                </div>
+                                <div class="col-md-12 input-group-btn mt-2">
+                                    <button type="submit" class="btn btn-primary btn-form btn-bgr display-4">SEND MESSAGE</button>
+                                </div>
+                            </div>
+                        </form><!---Formbuilder Form--->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="text-block">
+                    <h2 class="mb-4 mbr-fonts-style mbr-section-title display-2">Let’s Get <strong>in Touch</strong></h2>
+                    <h3 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
+                        Whatever types of questions you'll have, feel free to get in touch with us!
+                    </h3>
+                    
+                    <div class="mbr-section-btn mb-5">
+                        <a class="btn btn-md btn-white-outline btn-bgr display-4" href="#">MORE</a>
+                    </div>
+                </div>
+                <p class="mb-4 mbr-fonts-style subtext display-7 pt-5">*We dont share your personal info with anyone. Check out our privacy policy for more information.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
+  <script src="https://apis.google.com/js/plusone.js"></script>
+  <script src="assets/facebook-plugin/facebook-script.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid.min.js"></script>
+  
+  
+
+</body>
+</html>
